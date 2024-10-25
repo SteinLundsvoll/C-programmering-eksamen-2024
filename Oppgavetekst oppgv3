@@ -1,0 +1,25 @@
+Du skal skrive to programmer som kommuniserer med hverandre ved hjelp av en
+implementasjon av FTP – File Transport Protocol, hvor ditt klient-program skal kunne
+laste opp og laste ned filer fra server-programmet. Server-programmet skal ta et
+argument på kommandolinje som sier hvilken port den skal lytte på, klient-
+programmet skal ta argument(er) på kommandolinje som sier hvilken IP adresse og
+portnummer den skal koble seg til.
+Last ned filen
+
+http://www.eastwill.no/pg3401/konte_h24_oppgave3.c
+
+Denne filen inneholder en funksjon for autentisering som skal brukes av server
+programmet. (Denne filen leser en fil som heter user.db, denne filen er forventet å
+inneholde brukernavn og passord på etterfølgende linjer med semikolon mellom – les
+koden for å se formatet på filen og opprett denne filen for din test.) Resten av koden
+for både klient og server må du lage selv.
+
+Du må lage to makefile filer (hentet fra forelesning 4, sleide 63), en for server-
+programmet og en for klient-programmet. Du skal også lage en header fil for C filen
+du lastet ned, gjør eventuelle endringer påkrevet i makefile filen og kildefilen for å få
+programmet til å bygge og kjøre korrekt.
+
+Ditt program skal som minimum støtte følgende FTP kommandoer:
+
+PUT; kopierer en fil fra klient til server
+GET; kopierer en fil fra server til klient
