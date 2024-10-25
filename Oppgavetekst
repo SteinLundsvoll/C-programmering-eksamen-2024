@@ -1,0 +1,24 @@
+Oppgave 2
+
+Last ned følgende linker
+http://www.eastwill.no/pg3401/konte_h23_oppgave2_fib.c
+http://www.eastwill.no/pg3401/konte_h23_oppgave2_prim.c
+http://www.eastwill.no/pg3401/konte_h23_oppgave2_kvad.c
+http://www.eastwill.no/pg3401/konte_h23_oppgave2_perf.c
+http://www.eastwill.no/pg3401/konte_h23_oppgave2_abun.c
+http://www.eastwill.no/pg3401/konte_h23_oppgave2_def.c
+http://www.eastwill.no/pg3401/konte_h23_oppgave2_odd.c
+
+Du skal skrive et program som tar ett og ett tall som input fra brukeren, for hver av
+tallene skal du kalle funksjonene i de overnevnte kildefilene for å finne ut om tallene
+er a) et tall i Fibonacci-rekken, b) et primtall, c) et kvadrattall, d) et perfekt tall, e) et
+overflødig tall, f) et defekt tall, eller g) et oddetall. Skriv ut i terminalen hvilket tall som
+er behandlet, og om tallet er en (eller flere) av de forskjellige tall «typene».
+Programmet skal så lage en struct som inneholder en int som beskriver tallet
+brukeren tastet inn som input – og 7 verdier (som int eller som bool) som beskriver
+resultatet fra å kalle funksjonene A til G over. Denne structen skal skrives BINÆRT til
+en output fil.
+Du må lage en makefile fil (hentet fra forelesning 4, sleide 63), og en header fil til
+hver av de nedlastede kildefilene for programmet til å kompilere riktig, gjør eventuelle
+endringer påkrevet i makefile filen og kildefilene for å få programmet til å bygge og
+kjøre korrekt.
